@@ -1,0 +1,14 @@
+{
+    "name": "guess-next",
+    "scripts": {
+      "start": "next",
+      "build": "next build",
+      "export": "npm run build && next export -o guess"
+    },
+    "dependencies": {
+      "guess-webpack": "^0.1.6",
+      "next": "^6.1.1",
+      "react": "^16.0.0",
+      "react-dom": "^16.0.0"
+    }
+  }
